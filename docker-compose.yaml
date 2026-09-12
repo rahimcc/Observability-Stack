@@ -11,6 +11,8 @@ volumes:
   grafana_data: {}
   alertmanager_data: {}
   loki_data: {}
+  caddy_data: {}
+  caddy_config: {}
 
 services:
   # ---------- Metrics ----------
