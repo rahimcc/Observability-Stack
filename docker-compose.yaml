@@ -22,7 +22,7 @@ services:
     restart: unless-stopped
     volumes:
       - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
-      - ./prometheus/targets:/etc/targets/prometheus:ro
+      - ./prometheus/targets:/etc/prometheus/targets:ro
       - ./prometheus/alert.rules.yml:/etc/prometheus/alert.rules.yml:ro
       - prometheus_data:/prometheus
       - /var/run/docker.sock:/var/run/docker.sock:ro   # enables docker_sd_configs auto-discovery
