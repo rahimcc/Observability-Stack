@@ -1,0 +1,3 @@
+prometheus/targets/*.json
+!prometheus/targets/*.json.template
+!prometheus/targets/.gitkeep
