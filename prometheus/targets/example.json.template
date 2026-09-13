@@ -1,0 +1,8 @@
+[
+  {
+    "targets": ["<VM_PRIVATE_IP>:9100", "<VM_PRIVATE_IP>:8080"],
+    "labels": {
+      "instance": "<vm-name>"
+    }
+  }
+]
